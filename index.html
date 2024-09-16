@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		
+		/* styles.css */
+			body {
+				text-align: center;
+			    font-family: Arial, sans-serif;
+			    background-color: #f0f2f5;
+			    color: #333;
+			    margin: 0;
+			    padding: 0;
+			}
+
+
+			.header h1{
+			    margin: 0;
+			    font-size: 2em;
+			}
+	</style>
+
+	<title>Results Portal</title>
+</head>
+<body >
+	<h1>MVGR VI SEMESTER(A3) RESULTS </h1>
+	<div class="input">
+		<form action="results.jsp" method="post" target="output">
+			<label for="roll">Roll number: </label>
+			<input type="text" maxlength="10" name="roll">
+			<select>
+				<option value="cse_vi">CSE</option>
+			</select>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+	<br><br><br>
+	<iframe name="output" width="100%" height="500px" frameborder="0">
+		
+	</iframe>
+		
+	
+
+</body>
+</html>
